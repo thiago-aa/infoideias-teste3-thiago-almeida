@@ -1,0 +1,21 @@
+.nav {
+  border-bottom: 1px solid #F39229;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.nav img {
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .nav {
+    height: 5vh;
+  }
+
+  .nav img {
+    width: 80px;
+  }
+}

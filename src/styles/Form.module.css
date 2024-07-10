@@ -1,0 +1,130 @@
+.mainContainer {
+  display: flex;
+  width: 99vw;
+  padding: 0 0 10vh 0;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.mainContainer p {
+  width: 60%;
+  border-left: solid 4px #F39229;
+  padding: .5rem;
+  text-align: left;
+  font-size: 1.2rem;
+  margin: 5vh 0;
+}
+
+.mainContainer form {
+  border: solid 1px #F39229;
+  border-radius: 5px;
+  padding: 1rem;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formAction {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4vh;
+  width: 80%;
+}
+
+.formAction input {
+  font-size: 1rem;
+  border: none;
+  padding: .5rem;
+  background-color: #eee;
+  color: #222;
+  margin-top: .8vh;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formAction input:focus {
+  outline: 2px solid #F39229;
+}
+
+.formAction select {
+  font-size: 1rem;
+  border: none;
+  padding: .5rem;
+  background-color: #eee;
+  color: #222;
+  margin-top: .8vh;
+  border-radius: 5px;
+  outline: none;
+}
+
+.formAction select option {
+  background-color: #eee;
+  color: #222;
+}
+
+.radiosContainer {
+  border: solid 1px #F89734;
+  padding: 2vh 2vw;
+  border-radius: 5px;
+}
+
+.checkboxContainer {
+  border: solid 1px #F89734;
+  padding: 2vh 2vw;
+  border-radius: 5px;
+}
+
+
+.checkboxOptionsContainer {
+  display: flex;
+  padding-left: .4vw;
+}
+
+.checkboxOption input{
+  margin-right: .5vw;
+  margin-top: 2vh;
+}
+
+.checkboxOption label {
+  margin-right: 4vw;
+  margin-top: 2vh;
+}
+
+.radioOption input{
+  margin: 1vh .4vw;
+}
+
+.submitContainer {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+}
+
+.submitContainer input {
+  border: none;
+  background-color: #F39229;
+  color: #EEE;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: .4rem 1rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.submitContainer input:hover {
+  background-color: #EEE;
+  color: #F39229;
+}
+
+@media(max-width: 600px) {
+  .mainContainer form {
+    width: 80%;
+  }
+
+  .mainContainer p {
+    width: 80%;
+  }
+}
