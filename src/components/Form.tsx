@@ -4,6 +4,7 @@ function Form() {
   return (
     <div className={styles.mainContainer}>
       <p>Não encontrou o que procurava? Preencha o formulário e retornaremos o contato. (* indica um campo obrigatório)</p>
+      
       <form action="/" method='POST'>
         <div className={styles.formAction}>
           <label htmlFor="name">Nome:*</label>
@@ -162,6 +163,7 @@ function Form() {
             </div>
           </div>
         </div>
+
         <div className={styles.formAction}>
           <div className={styles.checkboxContainer}>
             <span>Você procura imovéis para:</span>
